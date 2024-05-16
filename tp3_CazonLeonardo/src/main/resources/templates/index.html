@@ -4,38 +4,33 @@
 <meta charset="UTF-8">
 <title>TP3 Leonardo Cazon</title>
 
-
-<style>
-	table{
-		border: 1px solid black;
-		border-spacing: 5px;
-	}
-	th{
-		border: 1px solid black;
-	}
-
-
-</style>
-
+<link rel="stylesheet" href="/css/stilos.css"></link>
 </head>
 
 <body>
-	<header>
+	<header id="header">
 		<h1>Programacion Visual</h1>
+		
+		<a href="/index">Pagina Principal</a>
+		<br>
+		<a href="/Formulario">Formulario</a>
 	</header>
 
-	<nav>
+	<nav class="nav">
+		<h1>Menu de Navegacion</h1>
+		<div class="enlaces">
 		<ul>
 			<li><a href="#HTML">HTML</a></li>
 			<li><a href="#CSS">CSS</a></li>
 			<li><a href="#Java">Java</a></li>
 			
 		</ul>
+		</div>
 	</nav>
-
-	<main>
+<div class="conteiner">
+	<main class="main">
 	
-		<section id="HTML">
+		<section id="HTML" class="seccion">
 			<h2>HTML (Lenguaje de Marcado de Hipertexto)</h2>
 			<h3>Introduccion a HTML</h3>
 			<p>HTML (HyperText Markup Language) es el lenguaje estándar utilizado para crear páginas web. 
@@ -76,7 +71,7 @@
 		</section>
 		
 		
-		<section id="CSS">
+		<section id="CSS" class="seccion">
 			<h2>CSS (Hojas de Estilo en Cascada)</h2>
 			<h3>Introducción a CSS</h3>
 			<p>CSS (Cascading Style Sheets) es un lenguaje utilizado para definir el estilo y la 
@@ -116,7 +111,7 @@
 			</table>
 		</section>
 		
-		<section id="Java">
+		<section id="Java" class="seccion">
 			<h2>Java</h2>
 			<h3>Introducción a Java</h3>
 			<p>Java es un lenguaje de programación de propósito general, conocido por su portabilidad, 
@@ -160,13 +155,17 @@
 	
 	</main>
 
-	<aside>
+	<aside class="aside">
 		<br>
 		<br>
-		<a href="https://virtual.unju.edu.ar/course/view.php?id=2540&section=5#tabs-tree-start" target="_blank"><img alt="logo" src="/img/logo.png"></a>
+		<a href="https://virtual.unju.edu.ar/course/view.php?id=2540" target="_blank"><img alt="Logo Prog Visual" src="/img/logo.png" ></a>
+		<br>
+		<a href="https://virtual.unju.edu.ar/course/view.php?id=2540" target="_blank" ><img alt="Biblioteca Digital" src="/img/BiblDigit.jpeg" ></a>
+		<br>
+		<a href="https://virtual.unju.edu.ar/course/view.php?id=2540" target="_blank"><img alt="Logo biblioteca Digital" src="/img/BiblDigit2.png" ></a>
 	</aside>
-
-	<footer>
+</div>
+	<footer id="footer">
   		<h3>Soporte De La Pagina</h3>
  		<p>Correo electrónico: suportOficial@gmail.com</p>
   	 	<p>Teléfono: +123456789</p>

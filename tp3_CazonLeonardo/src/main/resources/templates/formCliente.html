@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>TP3 Formulario</title>
+<link rel="stylesheet" href="/css/stilos.css"></link>
+
+</head>
+<body>
+	<header id="header">
+		<h1>Programacion Visual</h1>
+			<a href="/index">Pagina Principal</a>
+			<br>
+			<a href="/Formulario">Formulario</a>
+	</header>
+	
+	<main class="main">
+		<h1>Formulario De Datos</h1>
+		<form >
+			<br>
+			<label for="dni">DNI</label>
+			<input id="dni" type="number" placeholder="Ingrese DNI" name="dni" required></input>
+			<br>
+			<label for="nombre">Nombre</label>
+			<input id="nombre" type="text" placeholder="Ingrese Nombre" name="nombre" required></input>
+			<br>
+			<label for="apellido">Apellido</label>
+			<input id="apellido" type="text" placeholder="Ingrese Apellido" name="apellido" required></input>
+			<br>
+			<label for="fechNac">Fecha de Nacimiento</label>
+			<input id="fechNac" type="date" placeholder="Ingrese Fecha de nacimiento" name="fechNac" required></input>
+			<br>
+			<label for="generoM">Masculino</label>
+			<input id="generoM" type="radio" value="Masculino" placeholder="Ingrese Genero" name="genero"></input>
+			<label for="generoF">Femenino</label>
+			<input id="generoF" type="radio" value="Femenino" placeholder="Ingrese Genero" name="genero"></input>
+			<label for="generoX">X</label>
+			<input id="generoX" type="radio" value="X" placeholder="Ingrese Genero" name="genero"></input>
+			<br>
+			<label for="cElectronico">Correo Electronico</label>
+			<input id="cElectronico" type="email" placeholder="Ingrese Correo Electronico" name="cElectronico" required></input>
+			<br>
+			<label for="domiciolio">Domicilio</label>
+			<input id="domicilio" type="text" placeholder="Ingrese  Domicilio" name="domicilio" required></input>
+			<br>
+			<label for="provincia">Provincia</label>
+			<select id="provincia" name=provincia required>
+				<option value ="jujuy" selected>Jujuy</option>
+				<option value="jujuy">Jujuy</option>
+				<option value="salta">Salta</option>
+				<option value="tucuman">Tucuman</option>
+				<option value="mendoza">Mendoza</option>
+			</select>
+			<br>
+			<label for="nCelular">Numero De Celular</label>
+			<input id="nCelular" name="nCelular" type="number" placeholder="Ingrese su Numero De Celular"></input>
+			<br>
+			<label for="interes">Categoria De Intereses:</label>
+			<div>
+				<label for="interes">Turismo</label>
+				<input id="interes" type="checkbox" name="interes"></input>
+				<label for="interes">Cultura</label>
+				<input id="interes" name="interes" type="checkbox"></input>
+				<label for="interes">Gastronimia</label>
+				<input id="interes" name="interes" type="checkbox"></input>
+				<label for="interes">Economia</label>
+				<input id="interes" name="interes" type="checkbox"></input>
+			</div>
+			<label for="sugerencia">Sugerencia para la Empresa</label>
+			<br>
+			<textarea id="sugerencia" name="sugerencia" rows="4" cols="60" placeholder="Ingrese Comentarios"></textarea>
+			<br>
+			<label for="password">Password</label>
+			<input id="password" name="password" type="password" placeholder="Ingrese contraseña" maxlength="9" minlength="2" required></input>
+			<br>
+			<label for="termYcondic">Acepto los Terminos y condiciones</label>
+			<input id="termYcondic" name="termYcondic" type="checkbox" required></input>
+			<br>
+			<label for="recibirinformacion">Acepto Recibir Informacion Relativa a la Empresa</label>
+			<input id="recibirInformacion" name="recibirInformacion" type="checkbox"></input>
+			<br>
+			<input type="submit" value="Guardar"></input>
+			<input type="button" value="Cancelar"></input>
+		</form>
+		
+	</main>
+	
+	<footer id="footer">
+  		<h3>Soporte De La Pagina</h3>
+ 		<p>Correo electrónico: suportOficial@gmail.com</p>
+  	 	<p>Teléfono: +123456789</p>
+
+  		<h3>Redes Sociales(Redes Ficticias)</h3>
+    		<ul>
+       		  	<li><a href="https://www.facebook.com/soporte" target="_blank">Facebook Oficial</a></li>
+        	   	<li><a href="https://twitter.com/soporte" target="_blank">Twitter Oficial</a></li>
+        	  	<li><a href="https://www.instagram.com/soporte" target="_blank">Instagram Oficial</a></li>
+     	 	</ul>
+	</footer>
+	
+
+</body>
+</html>
